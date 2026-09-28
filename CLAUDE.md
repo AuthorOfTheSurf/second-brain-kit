@@ -14,10 +14,10 @@ The sections map at the top of `index.md` lists each section: its folder(s), wha
 ## Pages
 - Start with `# Title` and a one-line summary: `> [!summary] ...`
 - Short sections. Tables for comparisons. Concrete examples over theory.
-- Link generously with `[[page-name]]`. A link to a page that doesn't exist yet is fine — it marks something worth writing.
+- Link generously with `[[page-name]]` or `[[folder/page-name|Title]]`; Obsidian resolves both. A link to a page that doesn't exist yet is fine — it marks something worth writing.
 - End with a **Links** section.
 - One idea per page. Don't copy a fact into two pages — link to it. If two vocabularies name the same idea, map them in a table on one page.
-- Hub pages keep an **Open threads** list. When one closes, mark it ✅ and link the page that closed it.
+- Pages with ongoing work (projects, and hub pages many others link to) keep an **Open threads** list. When one closes, mark it ✅ and link the page that closed it.
 - Real people: only what I've told you. Mark gaps "to confirm". Never invent facts.
 
 ## After every answer (not just when I add a source)
@@ -28,19 +28,19 @@ A good answer gets saved:
 4. Add a `log.md` entry (format below).
 5. Close any open threads this answered.
 6. List every file you changed, one per line, as repo-relative paths.
-7. Ask before committing. Never commit or push without my OK.
+7. Ask before committing in a live chat. A scheduled bot job, or a session where I've pre-approved commits, commits and pushes on its own.
 
 ## Log format
 ```
 ## [YYYY-MM-DD] <ingest|query|lint> | <Short Title>
 - what I asked, the answer in brief, pages created/updated, open threads
 ```
-Use today's real date. Check recent entries with `grep "^## \[" log.md | tail -5`.
+`lint` is a tidy-up pass: broken links, orphan pages, contradictions, stale open threads. Use today's real date. Check recent entries with `grep "^## \[" log.md | tail -5`.
 
 ## Git
-- Pull before you start editing; a bot or another device may have pushed.
-- One commit per log entry, title only, echoing the log line (e.g. `query | Morning routine`). Push after committing. If a push fails or there's no remote yet, say so and carry on.
-- Fold my feedback in *before* committing, so each commit is a reviewed unit. I can pre-approve commits for a whole session.
+- If the repo has a remote, pull before you start editing; a bot or another device may have pushed.
+- One commit per log entry. The title is the log line without the date (e.g. `query | Morning routine`). Push after committing. If a push fails or there's no remote yet, say so and carry on.
+- Fold my feedback in *before* committing, so each commit is a reviewed unit.
 - Never put passwords, API keys or tokens in the wiki. It's a git repo.
 
 ## Style

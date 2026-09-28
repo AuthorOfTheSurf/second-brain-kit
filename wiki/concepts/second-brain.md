@@ -5,7 +5,7 @@
 ## Three layers
 | Layer | Job | Here |
 |---|---|---|
-| UI | seeing and talking | Obsidian, a phone chat with a bot |
+| UI (user interface) | seeing and talking | Obsidian, a phone chat with a bot |
 | API (business logic) | the rules for reading and writing | the AI agent, following `CLAUDE.md` |
 | Database | storage and history | markdown files in a GitHub repo |
 
@@ -17,10 +17,14 @@ Swapping one layer doesn't break the others. Change bots, change note apps: the 
 - It updates or creates pages, adds them to `index.md`, and writes a `log.md` entry.
 - You review, then it commits and pushes.
 
-## Why files, not an app
+## Why plain files
 - You own them. Any AI, any editor, any year can read markdown.
 - GitHub keeps every version, so nothing is lost and every change can be undone.
 - Links between pages are where the value compounds: a new case links to old concepts, and patterns show up.
+
+## Open threads
+- Ingest a first source.
+- Add a first advisor to [[wiki/concepts/the-mastermind|the mastermind]].
 
 ## Links
 - [[wiki/concepts/the-mastermind|The Mastermind]]

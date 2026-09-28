@@ -27,7 +27,7 @@ Someone can be both. A teacher graduates to an advisor once their page captures 
 - "What would [advisor] say about this plan? Then what would [other advisor] say?"
 
 ## Honest caveat
-It's a model of the person, not the person. It's only as good as the sources behind the page, and it can sound confident when it's wrong. Use it to widen your options, not to outsource the decision.
+An advisor page is built from public sources, so it's only as good as the sources behind the page, and it can sound confident when it's wrong. Use it to widen your options, not to outsource the decision.
 
 ## Links
 - [[wiki/concepts/second-brain|Second Brain]]
