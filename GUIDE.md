@@ -17,9 +17,9 @@ The more you use it, the more each answer is worth.
 
 ## 3. Capture with the least effort
 The bottleneck is getting things in. Make it easy:
-- **Voice.** Talk through a meeting or idea on your phone, then give the transcript to your bot.
-- **Paste.** Articles, emails, call notes: drop them in `raw/` and say "ingest this."
-- **Just ask.** A question you'd ask any AI, ask here instead. The answer gets filed.
+- **Just ask.** A question you'd ask any AI, ask here instead. The answer gets filed. Most of your brain grows this way.
+- **Voice.** Talk through a meeting or idea on your phone, then give the transcript to your agent.
+- **Paste.** When you do have an article, email or call notes, hand it over and say "file this."
 
 ## 4. Use it everywhere
 - **Phone:** talk to your bot (Grok Bot) from anywhere.
