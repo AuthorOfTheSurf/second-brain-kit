@@ -1,55 +1,63 @@
 # Second Brain starter kit
 
-A knowledge base an AI writes and maintains for you, in plain text files you own. You bring sources and questions; the AI files, links and answers.
+**Own your brain. Run it with any AI.**
 
-## The three layers
-| Layer | What it does | Here |
-|---|---|---|
-| UI (user interface) | how you see it and talk to it | Obsidian to browse; a chat with your bot or Claude to talk |
-| API (business logic) | the rules for reading and writing it | an AI agent following `CLAUDE.md` |
-| Database | where the knowledge lives | a folder of markdown files, versioned on GitHub |
-
-Obsidian is only the UI. The value is in the files and the rules.
+Your second brain is a folder of plain text files that your AI agents read and write. Every question you ask and every project you work on leaves something behind. Next week, whatever AI you use already knows your business, your people and your processes.
 
 **New here? Read [`GUIDE.md`](GUIDE.md)** for the six habits that get the most out of it.
 
-## What it costs
-Prices as of September 2026.
+## Why entrepreneurs use it
+- **Stop re-explaining your business.** Every agent reads the same brain, so a new chat starts out knowing your offers, clients and goals.
+- **Never get locked in.** AI tools change every month. Your brain is markdown files you own, so you can try the new tool this week and it's smart on day one. You can also run several at once.
+- **Knowledge compounds on its own.** You don't file anything. The agent saves what you learn as you work, and the next answer starts from everything before it.
+- **Get your SOPs out of your head.** SOPs (standard operating procedures), skills and processes live in the brain, where any agent or new hire can run them.
+- **Onboard in a day, not weeks.** A new VA (virtual assistant) or hire gets the company brain, and their agents start out knowing how you work.
 
-- **Start: Grok Bot, $30/mo** (SuperGrok). An always-on AI with its own computer. It can set this kit up for you, and you talk to it from your phone.
-- **Next: Claude Max, $100/mo.** Adds Claude Code, the stronger agent for big ingests, reorganizing, and long sessions.
-- GitHub (private repo) and Obsidian are free.
+## What it looks like
+- **You just work.** Ask your agent about pricing, a client or a Spanish lesson. It answers, then saves what matters into the right page. You never say "save this."
+- **You point it at something.** At a bookstore, three books catch your eye: "Research these three, save summaries to my second brain, and teach me the best idea from each."
+- **Your team runs on it.** Your sales process, hiring checklist and client notes are written down once. A new assistant's agent reads them and gets to work.
 
-MIT licensed: copy it, change it, hand it on.
+## Works with any agent
+Use the one you like. They all share one brain:
+- **Claude Code** for big jobs: long sessions, reorganizing, moving notes in.
+- **Grok Bot** for an always-on agent you talk to from your phone.
+- **Any other frontier agent** (Codex, an AI browser, whatever comes next) that can read and write files in a GitHub repo.
+
+When one agent saves something, it pushes to GitHub, and every other agent pulls the latest. Want to browse your brain like a notebook? Open the folder in [Obsidian](https://obsidian.md). It's optional, because the agents do the work.
+
+## Tools
+- **An AI agent** that can work with files. Pick one from the list above.
+- **GitHub** (free). A private repo stores your brain, keeps every version, and syncs every agent and device.
+- **Optional:** Obsidian, to read and click through your pages.
 
 ## Setup
-Already have an Obsidian vault? Follow [`MIGRATING.md`](MIGRATING.md) instead.
+1. Make a free [GitHub](https://github.com) account. On this repo's page, click **Use this template** and create a **private** repo.
+2. Connect your agent:
+   - **Claude Code:** in the Claude desktop app's Code tab, say: "Clone my repo `<your repo URL>` and open it." If it asks you to sign in to GitHub, follow its steps. It reads the rules in `AGENTS.md` on its own.
+   - **Grok Bot:** give it your repo's URL. Ask it to connect to GitHub with write access, clone the repo, read `AGENTS.md` and follow it in every session, and pull the latest every few hours.
+   - **Any other agent:** same as Grok Bot.
+3. Seed it with a 15-minute interview. Say:
+   > "Interview me so my second brain knows me. Ask about my business, my current projects, my goals for this year, and the people I work with. Ask one question at a time. Then file what you learned and push."
+4. Check it worked. Open your repo on GitHub. You should see new pages in `wiki/` and a first entry in `log.md`.
+5. From now on, just work. Ask your agent anything you're working on, and the brain grows with every answer.
 
-1. Make a free GitHub account.
-2. On this repo's page, click **Use this template** and create a **private** repo in your account.
-3. Give Grok Bot your new repo's URL. Ask it to connect to GitHub with write access, clone the repo onto its computer, add a first `log.md` entry with today's date, and set up a job that pulls the latest every few hours.
-4. On your computer, install GitHub Desktop and clone the same repo. Open that folder in Obsidian to browse your pages.
-5. Later, with Claude Max: in the Claude desktop app's Code tab, open the folder on your computer. Your copy and the bot's copy stay in sync through GitHub.
-
-Links between pages work in Obsidian. On GitHub they show as plain text.
-
-## First session
-- Drop an article, transcript or notes into `raw/` and say "ingest this."
-- Or just ask a question. The answer gets filed.
-- Then open `index.md` in Obsidian and follow the links.
+**Already have notes in Notion, Obsidian or Google Docs?** Your agent can move them in for you in an afternoon. See [`MIGRATING.md`](MIGRATING.md).
 
 ## What's in the box
 ```
-CLAUDE.md     ← the rules the AI follows (edit them as you go)
-index.md      ← sections map, then one line per page
+AGENTS.md     ← the rules every agent follows (edit them as you go)
+index.md      ← the map of your brain
 log.md        ← history of every session
-raw/          ← your sources, never edited
-wiki/         ← the pages the AI writes
-GUIDE.md      ← how to get the most out of it
-MIGRATING.md  ← bring in an existing Obsidian vault
+raw/          ← original sources, never edited
+wiki/         ← the pages your agents write
+GUIDE.md      ← six habits for getting the most out of it
+MIGRATING.md  ← bring in notes from anywhere
 BOTS.md       ← small bots with small jobs
 ```
-Two starter pages are already filed: `wiki/concepts/second-brain.md` (how this works) and `wiki/concepts/the-mastermind.md` (a way to use it you might not think of).
+Two starter pages are already filed: `wiki/concepts/second-brain.md` (how it works) and `wiki/concepts/the-mastermind.md` (a way to use it you might not think of).
 
 ## Modules
-A module is a set of ready-made pages dropped into `wiki/` so your second brain starts off knowing a field: fitness, sales, self-coaching. None ship with the kit yet. Ask the agent to build one when you want a topic to start strong.
+A module is a set of ready-made pages dropped into `wiki/` so your brain starts off knowing a field, such as fitness, sales or self-coaching. None ship with the kit yet. Ask your agent to build one when you want a topic to start strong.
+
+MIT licensed: copy it, change it, hand it on.

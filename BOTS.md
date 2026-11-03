@@ -3,7 +3,7 @@
 ## One Wiki bot
 - Grok Bot keeps a copy of the repo on its own computer.
 - A scheduled job pulls the latest from GitHub every few hours.
-- The bot's one job: read and write the wiki under `CLAUDE.md`, then commit and push.
+- The bot's one job: read and write the wiki under `AGENTS.md`, then commit and push.
 - You talk to it from your phone.
 
 ## Small bots with small jobs
