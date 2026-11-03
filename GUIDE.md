@@ -51,5 +51,5 @@ Two repos, with agents moving information between them:
 ## Keep it healthy
 - **Review before commit.** Read what the agent changed before it's saved. Five seconds now saves a wrong fact spreading later.
 - **Monthly tidy-up.** Ask: "Lint the wiki: broken links, orphan pages, contradictions, stale open threads."
-- **Edit the rules.** `CLAUDE.md` is yours. When the agent keeps doing something you don't like, add a rule.
+- **Edit the rules.** `AGENTS.md` is yours. When the agent keeps doing something you don't like, add a rule.
 - **No secrets.** Passwords and API keys never go in the wiki.

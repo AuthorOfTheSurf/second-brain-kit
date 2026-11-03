@@ -4,7 +4,7 @@
 
 ## One brain, any agent
 - The knowledge is markdown files in a GitHub repo.
-- The rules are in `CLAUDE.md`. Any agent that follows them can read and write the brain: Claude Code, Grok Bot, or the next one.
+- The rules are in `AGENTS.md`. Any agent that follows them can read and write the brain: Claude Code, Grok Bot, or the next one.
 - Agents sync through GitHub, so what one saves, the others see.
 
 Change agents or note apps and nothing breaks, because the files stay.

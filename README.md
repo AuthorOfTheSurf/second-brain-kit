@@ -34,8 +34,8 @@ When one agent saves something, it pushes to GitHub, and every other agent pulls
 ## Setup
 1. Make a free [GitHub](https://github.com) account. On this repo's page, click **Use this template** and create a **private** repo.
 2. Connect your agent:
-   - **Claude Code:** in the Claude desktop app's Code tab, say: "Clone my repo `<your repo URL>` and open it." If it asks you to sign in to GitHub, follow its steps. It reads the rules in `CLAUDE.md` on its own.
-   - **Grok Bot:** give it your repo's URL. Ask it to connect to GitHub with write access, clone the repo, read `CLAUDE.md` and follow it in every session, and pull the latest every few hours.
+   - **Claude Code:** in the Claude desktop app's Code tab, say: "Clone my repo `<your repo URL>` and open it." If it asks you to sign in to GitHub, follow its steps. It reads the rules in `AGENTS.md` on its own.
+   - **Grok Bot:** give it your repo's URL. Ask it to connect to GitHub with write access, clone the repo, read `AGENTS.md` and follow it in every session, and pull the latest every few hours.
    - **Any other agent:** same as Grok Bot.
 3. Seed it with a 15-minute interview. Say:
    > "Interview me so my second brain knows me. Ask about my business, my current projects, my goals for this year, and the people I work with. Ask one question at a time. Then file what you learned and push."
@@ -46,7 +46,7 @@ When one agent saves something, it pushes to GitHub, and every other agent pulls
 
 ## What's in the box
 ```
-CLAUDE.md     ← the rules every agent follows (edit them as you go)
+AGENTS.md     ← the rules every agent follows (edit them as you go)
 index.md      ← the map of your brain
 log.md        ← history of every session
 raw/          ← original sources, never edited

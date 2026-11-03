@@ -20,7 +20,7 @@ Set up the kit first (see `README.md` → Setup). Then get the agent access to y
 ## 3. Ask
 Paste this, filling in the blanks:
 
-> "My notes are currently in ___ (they're at ___). I want to move them into this second brain. Read `CLAUDE.md`, then read through my notes. Propose the sections, which folders and what goes in each, and wait for my OK. Then write the pages, move original sources like articles and transcripts into `raw/`, build `index.md`, add a `log.md` entry, and push to GitHub."
+> "My notes are currently in ___ (they're at ___). I want to move them into this second brain. Read `AGENTS.md`, then read through my notes. Propose the sections, which folders and what goes in each, and wait for my OK. Then write the pages, move original sources like articles and transcripts into `raw/`, build `index.md`, add a `log.md` entry, and push to GitHub."
 
 The agent comes back with a proposed map. Adjust it ("merge these two," "clients get their own folder"), then let it run.
 
