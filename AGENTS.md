@@ -38,6 +38,7 @@ A good answer gets saved:
 `lint` is a tidy-up pass: broken links, orphan pages, contradictions, stale open threads. Use today's real date. Check recent entries with `grep "^## \[" log.md | tail -5`.
 
 ## Git
+- When I say "save", commit and push. Written but not committed isn't saved; committed but not pushed isn't saved. If the push fails, say it isn't saved yet.
 - If the repo has a remote, pull before you start editing; a bot or another device may have pushed.
 - One commit per log entry. The title is the log line without the date (e.g. `query | Morning routine`). Push after committing. If a push fails or there's no remote yet, say so and carry on.
 - Fold my feedback in *before* committing, so each commit is a reviewed unit.
