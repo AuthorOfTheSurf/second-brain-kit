@@ -17,9 +17,9 @@ The more you use it, the more each answer is worth.
 
 ## 3. Capture with the least effort
 The bottleneck is getting things in. Make it easy:
-- **Voice.** Talk through a meeting or idea on your phone, then give the transcript to your bot.
-- **Paste.** Articles, emails, call notes: drop them in `raw/` and say "ingest this."
-- **Just ask.** A question you'd ask any AI, ask here instead. The answer gets filed.
+- **Just ask.** A question you'd ask any AI, ask here instead. The answer gets filed. Most of your brain grows this way.
+- **Voice.** Talk through a meeting or idea on your phone, then give the transcript to your agent.
+- **Paste.** When you do have an article, email or call notes, hand it over and say "file this."
 
 ## 4. Use it everywhere
 - **Phone:** talk to your bot (Grok Bot) from anywhere.
@@ -51,5 +51,5 @@ Two repos, with agents moving information between them:
 ## Keep it healthy
 - **Review before commit.** Read what the agent changed before it's saved. Five seconds now saves a wrong fact spreading later.
 - **Monthly tidy-up.** Ask: "Lint the wiki: broken links, orphan pages, contradictions, stale open threads."
-- **Edit the rules.** `CLAUDE.md` is yours. When the agent keeps doing something you don't like, add a rule.
+- **Edit the rules.** `AGENTS.md` is yours. When the agent keeps doing something you don't like, add a rule.
 - **No secrets.** Passwords and API keys never go in the wiki.

@@ -13,7 +13,7 @@ Read this map first. Then search this file and `wiki/` for your topic. One line 
 - **Mastermind** — `wiki/mastermind/` — advisors: people who've done what you want to do. Each page captures how they think and talk, their go-to moves, and what they'd push back on, then ends with "How they'd advise you". See [[wiki/concepts/the-mastermind|The Mastermind]].
 
 ## Concepts
-- [[wiki/concepts/second-brain|Second Brain]] — how this knowledge base works: three layers, one loop, plain files you own.
+- [[wiki/concepts/second-brain|Second Brain]] — how this knowledge base works: one brain any agent can use, one loop, plain files you own.
 - [[wiki/concepts/the-mastermind|The Mastermind]] — an advisory board of people who've done what you're trying to do, modeled well enough to ask for their advice.
 
 ## Cases
